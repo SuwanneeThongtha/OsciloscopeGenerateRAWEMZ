@@ -24,8 +24,8 @@ time = data(:, 1);
 amplitude = data(:, 2);
 
 % Parameters
-Fs = 50000;        % Sampling frequency
-nfft = 50;         % FFT points
+Fs = 54000;        % Sampling frequency
+nfft = 54;         % FFT points
 overlap = floor(3 * nfft / 4); % 75% overlap
 step_size = nfft - overlap;
 filter_order = 50;  % FIR filter order
